@@ -4,6 +4,14 @@ export const SITE_NAME = 'Vaishanavi Nasha Mukti Kendra'
 export const CONTACT_PHONE = '+91 98765 43210'
 export const CONTACT_PHONE_RAW = '919876543210' // digits only, for tel: and WhatsApp links
 export const CONTACT_ADDRESS = 'Vaishanavi Nasha Mukti Kendra\nHathi Market, Chaturi Nagar, Khemnichak\nNear Ford Hospital\nPatna, Bihar - 800030'
+
+// Social media links (used in Footer and elsewhere)
+export const SOCIAL_LINKS = {
+  whatsapp: `https://wa.me/${CONTACT_PHONE_RAW}`,
+  facebook: 'https://www.facebook.com/vaishanavinashamuktikendra', // Update with your page URL
+  instagram: 'https://www.instagram.com/vaishanavinashamuktikendra', // Update with your profile URL
+  youtube: 'https://www.youtube.com/@vaishanavinashamuktikendra', // Update with your channel URL
+}
 export const CONTACT_ADDRESS_MAP = 'Hathi Market Chaturi Nagar Khemnichak Near Ford Hospital Patna Bihar 800030' // used for Google Map embed
 
 export const RECOVERY_STEPS = [

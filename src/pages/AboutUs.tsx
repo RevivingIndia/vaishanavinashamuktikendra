@@ -333,7 +333,7 @@ export function AboutUs() {
             </h2>
             <ul className="space-y-2">
               {missionPoints.map((point, i) => (
-                <li key={point} className="flex items-start gap-2 text-slate-700">
+                <li key={i} className="flex items-start gap-2 text-slate-700">
                   <span className="text-teal-500 mt-1">•</span>
                   {point}
                 </li>
